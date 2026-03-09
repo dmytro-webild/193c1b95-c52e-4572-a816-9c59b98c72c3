@@ -174,23 +174,23 @@ export default function LandingPage() {
 
       <div id="faq" data-section="faq">
         <FaqDouble
-          title="Frequently Asked Questions"
-          description="Get answers to common questions about our event planning services and process"
+          title="Got Questions? We've Got Answers!"
+          description="Here's what our clients typically want to know. Let's chat about your celebration."
           tag="Questions?"
           tagIcon={HelpCircle}
           faqs={[
             {
-              id: "1",              title: "How far in advance should I book your services?",              content: "We recommend booking 6-12 months in advance for large events like weddings. However, we can accommodate shorter timelines depending on availability and event complexity. Contact us to discuss your specific needs."},
+              id: "1",              title: "How far in advance should I book your services?",              content: "Great question! We recommend reaching out 6-12 months before your big day for weddings and large events. That said, we love working with clients on tighter timelines too—just contact us to see what we can create together for your celebration."},
             {
-              id: "2",              title: "What services are included in your planning packages?",              content: "Our services include venue selection, vendor coordination, décor design, timeline management, guest accommodation, and day-of coordination. We offer customizable packages to meet your specific needs and budget."},
+              id: "2",              title: "What's included in your planning packages?",              content: "We believe in customizing everything to fit your needs. Our services typically include venue selection, vendor coordination, stunning décor design, detailed timeline management, guest accommodations, and full day-of coordination. Think of us as your celebration partners—we're here to make your vision come to life exactly as you imagine it."},
             {
-              id: "3",              title: "Do you work with venues outside the local area?",              content: "Yes, we have extensive experience planning events at destination locations and can coordinate across multiple venues and regions. Our network extends nationally and internationally."},
+              id: "3",              title: "Do you work with venues outside the local area?",              content: "Absolutely! We've planned unforgettable celebrations across multiple states and even internationally. Our extensive vendor network and experience means we can coordinate your dream event wherever it takes place. Distance is never an obstacle—passion and creativity are what matter."},
             {
-              id: "4",              title: "What is your approach to event design and aesthetics?",              content: "We believe in creating bespoke designs that reflect your unique vision and personality. Our team works closely with you to understand your style, preferences, and values to create cohesive, memorable experiences."},
+              id: "4",              title: "How do you approach event design?",              content: "We believe your celebration should tell your story. Our team takes time to understand your personality, style, and values. We then collaborate closely with you to create bespoke designs that reflect who you are. The result? An event that feels authentically, beautifully yours."},
             {
-              id: "5",              title: "How do you handle unexpected changes or emergencies during events?",              content: "Our experienced team maintains detailed contingency plans for every event. We're equipped to handle unexpected situations with professionalism and grace, ensuring your celebration continues seamlessly."},
+              id: "5",              title: "What happens if something unexpected occurs during the event?",              content: "We've got you covered. Our experienced team prepares detailed contingency plans for every event because we know life happens. With our calm, professional approach and quick thinking, we handle any surprises gracefully so your celebration continues seamlessly."},
             {
-              id: "6",              title: "What payment and contract options do you offer?",              content: "We offer flexible payment plans tailored to your event timeline. A detailed contract outlines all services, deliverables, and terms. We accept multiple payment methods for your convenience."},
+              id: "6",              title: "What payment options and contracts do you offer?",              content: "We want planning to feel easy and accessible. We offer flexible payment plans tailored to your event timeline and clear, transparent contracts that outline everything. You'll know exactly what to expect, and we accept multiple payment methods for your convenience."},
           ]}
           textboxLayout="default"
           useInvertedBackground={false}
@@ -200,8 +200,8 @@ export default function LandingPage() {
 
       <div id="contact" data-section="contact">
         <ContactSplitForm
-          title="Ready to Plan Your Elegant Celebration?"
-          description="Let's discuss your vision and create an unforgettable event. Reach out today to begin your journey with All That Sparkle By Nikki."
+          title="Let's Create Something Beautiful Together"
+          description="We can't wait to hear about your vision. Drop us a line, and let's start planning the celebration of your dreams."
           inputs={[
             { name: "name", type: "text", placeholder: "Your Name", required: true },
             { name: "email", type: "email", placeholder: "Email Address", required: true },
@@ -209,7 +209,7 @@ export default function LandingPage() {
             { name: "eventDate", type: "text", placeholder: "Planned Event Date", required: false },
           ]}
           textarea={{
-            name: "message",            placeholder: "Tell us about your vision and celebration details...",            rows: 5,
+            name: "message",            placeholder: "Tell us about your vision—the vibe, the dreams, the details. We're all ears!",            rows: 5,
             required: true,
           }}
           useInvertedBackground={false}
