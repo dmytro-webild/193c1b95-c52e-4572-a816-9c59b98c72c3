@@ -54,7 +54,7 @@ export default function LandingPage() {
             {
               imageSrc: "http://img.b2bpic.net/free-photo/cheese-lovely-indoor-bread-appetizer_1304-2508.jpg",              imageAlt: "Beautiful wedding reception setup"},
             {
-              imageSrc: "http://img.b2bpic.net/free-photo/people-taking-part-business-event_23-2149346655.jpg",              imageAlt: "Sophisticated corporate event"},
+              imageSrc: "http://img.b2bpic.net/free-photo/dining-table-with-floral-centerpiece-wedding-reception_637285-5611.jpg?id=26265506",              imageAlt: "Sophisticated corporate event"},
           ]}
           autoplayDelay={5000}
           showDimOverlay={true}
